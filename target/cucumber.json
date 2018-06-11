@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "01_Verify login with invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;01-verify-login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9654602995,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Login Page",
+            "match": {
+              "location": "Steps.i_am_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 832893392,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter Invalid \"Bharat\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bharat",
+                  "offset": 17
+                },
+                {
+                  "val": "12345",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.i_enter_Invalid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454664663,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should not be able to login",
+            "match": {
+              "location": "Steps.i_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "01_Verify login with invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;01-verify-login-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8755744642,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Login Page",
+            "match": {
+              "location": "Steps.i_am_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1154359510,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter Invalid \"Admin\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 17
+                },
+                {
+                  "val": "123",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.i_enter_Invalid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169576723,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should not be able to login",
+            "match": {
+              "location": "Steps.i_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "02_Verify login with valid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;02-verify-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8891708556,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am in Login Page",
+            "match": {
+              "location": "Steps.i_am_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3151297750,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Valid \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 15
+                },
+                {
+                  "val": "admin",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.i_enter_Valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517869943,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to login",
+            "match": {
+              "location": "Steps.i_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "02_Verify login with valid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;02-verify-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9049187285,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am in Login Page",
+            "match": {
+              "location": "Steps.i_am_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4009163096,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Valid \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 15
+                },
+                {
+                  "val": "admin",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.i_enter_Valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135488323,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to login",
+            "match": {
+              "location": "Steps.i_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login Functionality",
+    "description": "",
+    "id": "to-verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "app.feature"
+  }
+]
